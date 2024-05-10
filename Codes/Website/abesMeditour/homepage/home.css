@@ -1,0 +1,238 @@
+
+body{
+    position: relative;
+}
+.fpage{
+    background-color: #A393EB;
+    height: 708px;
+}
+.head{
+    background-color: #27296D;
+    color: #F5C7F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 114px;
+}
+.fn{
+    gap: 8px;
+    align-items: center;
+    display: flex;
+}
+.fn img{
+    height: 79px;
+    width: 90px;
+    padding-left: 18px;
+    display: inline;
+} 
+.fn h1{
+    display: inline;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+nav .sn ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav .sn ul li{
+    margin-right: 120px;
+}
+nav .sn ul li:last-child{
+    margin-right: 200;
+}
+.sn a{
+    color: #F5C7F7;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 600px;
+}
+.sn a:hover{
+    color: #e596e8;
+}
+.fbody{
+    display: flex;
+}
+nav a{
+    font-family: "Inter";
+}
+.con{
+    width:760px;
+    justify-content: center;
+    margin-left: 97px;
+    margin-top: 45px;
+    font-family: "Inter",sans-serif;
+}
+.photo{
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    padding-top: 8px;
+    padding-left: 100px;
+}
+.nxt,.spp2{
+    font-size: 85px;
+    font-weight: 200;
+    color: #27296D;
+}
+.txt,.spp1{
+    font-weight: 800;
+    font-size: 85px;
+    color: #27296D;
+}
+.cul1{
+    border: 0px;
+    margin-top: -5px;
+    height: 7px;
+    background-color: #27296D;
+}
+/* Second frame css start */
+
+.spage{
+    background-color: #90C3F5;
+    display: flex;
+    height: 708px;
+    margin-top: -10px;
+    font-family: "Inter";
+}
+
+.sp1{
+    justify-content: center;
+    align-items: center;
+}
+.sp1 img{
+    height: 587px;
+    width: 719px;
+    margin-bottom: 0px;
+    margin-top: 115px;
+}
+.sp2 p{
+    margin-top: 66px;
+    margin-left: 80px;
+}
+
+.cul2{
+    border: 0px;
+    margin-top: -5px;
+    height: 7px;
+    background-color: #F5C7F7;
+}
+
+/* Third frame css start */
+.tpage{
+    height: 708px;
+    background-color: #27296D;
+    margin-top: -10px;
+    display: flex;
+    font-family: "Inter";
+}
+
+.tp1{
+    width: 720px;
+}
+.tpage p{
+    padding-top: 150px;
+    padding-left: 65px;
+}
+.tpp2{
+    font-size: 95px;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.tpp1{
+    font-weight: 800;
+    font-size: 95px;
+    color: #FFFFFF;
+}
+
+.tps1{
+    margin-top: 70px;
+}
+
+.tps11{
+    font-weight: 400px;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: -140px;
+    margin-left: -65px;
+    margin-bottom: -140px;
+    padding: 0px;
+}
+.tps12{
+    font-weight: 300px;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: -75px;
+    margin-bottom: 20px;
+}
+
+.tps13{
+    border: 0px;
+    margin-top: -5px;
+    margin-right: -200px;
+    height: 4px;
+    background-color: #FFFFFF;
+}
+
+/* Fourth frame css*/
+
+.cul3{
+    border: 0px;
+    margin-top: -5px;
+    height: 7px;
+    background-color: #FFFFFF;
+}
+
+.fopage{
+    height: 240px;
+    background-color: #5E63B6;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Inter";
+}
+.fobut{
+    display: flex;
+    background-color: #373C8E;
+    width: 288px;
+    min-height: 96px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.folo img{
+    height: 55px;
+    width: 66px;
+}
+.foname{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.mad p{
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 5px;
+}
+.cont , .pp , .foot{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.copp{
+    display: flex;
+    gap: 46px;
+}
+
+.cont , .pp ,.foot{
+    margin-top: -19px;
+}

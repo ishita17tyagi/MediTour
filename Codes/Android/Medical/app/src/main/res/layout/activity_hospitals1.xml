@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pharmacy_1"
+    android:background="@color/C3">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Hospitals"
+        android:textColor="@color/C2"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/BackToMain"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/img_19"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="639dp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Apollo_Hospitals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="Apollo Hospital"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_22sdp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="47dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="21, Greams Lane, Off Greams Road"
+                        android:textColor="@color/c1"
+                        android:textSize="@dimen/_12sdp"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="MedZone Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_20sdp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="27dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginBottom="63dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:textColor="@color/c1"
+                        android:textSize="@dimen/_12sdp"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="MedZone Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="47dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:textColor="@color/c1" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="MedZone Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="47dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:textColor="@color/c1" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="MedZone Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="47dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:textColor="@color/c1" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="MedZone Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="47dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:textColor="@color/c1" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="MedZone Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="47dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:textColor="@color/c1" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="MedZone Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="47dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:textColor="@color/c1" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="32dp"
+                app:cardCornerRadius="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4B4FD3"
+
+                    android:padding="1dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="30dp"
+                        android:gravity="center"
+                        android:text="MedZone Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginBottom="47dp"
+                        app:srcCompat="@drawable/img_16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="-4dp"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="center"
+                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:textColor="@color/c1" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

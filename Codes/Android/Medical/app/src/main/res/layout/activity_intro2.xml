@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C2"
+    tools:context=".Intro1"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Gateway to"
+        android:id="@+id/welcome"
+        android:textSize="33sp"
+        android:textColor="@color/c1"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="30dp"/>
+
+
+    <TextView
+        android:layout_width="399dp"
+        android:layout_height="105dp"
+        android:layout_alignTop="@+id/welcome"
+        android:layout_alignBottom="@+id/welcome"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-243dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="-17dp"
+        android:layout_marginBottom="-110dp"
+        android:layout_toEndOf="@+id/welcome"
+        android:text="Advance Medical \nFacilities."
+        android:textColor="@color/c1"
+        android:textSize="33sp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next2"
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="77dp"
+        android:backgroundTint="@color/C3"
+        android:clickable="true"
+        app:srcCompat="@drawable/next" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:backgroundTint="@color/C3"
+        android:layout_marginBottom="77dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="193dp"
+        android:layout_height="299dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="222dp"
+        app:srcCompat="@drawable/img" />
+
+
+</RelativeLayout>

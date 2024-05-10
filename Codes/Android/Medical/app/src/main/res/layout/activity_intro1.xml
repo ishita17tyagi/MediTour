@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C2"
+    tools:context=".Intro1"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:id="@+id/welcome"
+        android:textSize="33sp"
+        android:textColor="@color/c1"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/welcome"
+        android:layout_alignBottom="@+id/welcome"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@+id/welcome"
+        android:text=" MediTour:"
+        android:textColor="@color/c1"
+        android:textSize="33sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="144dp"
+
+        android:layout_below="@+id/welcome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="474dp"
+        android:text="Redefining healthcare Experience!"
+        android:textColor="@color/c1"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next1"
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="77dp"
+        android:backgroundTint="@color/C3"
+        android:clickable="true"
+        app:srcCompat="@drawable/next" />
+
+
+</RelativeLayout>

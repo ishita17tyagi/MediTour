@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         im.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,Pharmacy_1.class));
+                startActivity(new Intent(MainActivity.this,Profile_user_1.class));
 
             }
         });

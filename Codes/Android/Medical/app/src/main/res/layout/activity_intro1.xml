@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Welcome to"
         android:id="@+id/welcome"
-        android:textSize="33sp"
+        android:textSize="@dimen/_23ssp"
         android:textColor="@color/c1"
         android:textStyle="bold"
         android:layout_marginTop="70dp"
@@ -21,7 +21,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/_25sdp"
         android:layout_alignTop="@+id/welcome"
         android:layout_alignBottom="@+id/welcome"
         android:layout_alignParentEnd="true"
@@ -30,9 +30,9 @@
         android:layout_marginEnd="54dp"
         android:layout_marginBottom="-1dp"
         android:layout_toEndOf="@+id/welcome"
-        android:text=" MediTour:"
+        android:text=" MediTour  "
         android:textColor="@color/c1"
-        android:textSize="33sp"
+        android:textSize="@dimen/_23ssp"
         android:textStyle="italic" />
 
     <TextView

@@ -70,7 +70,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/Pharmacy"
@@ -104,17 +105,19 @@
                             app:srcCompat="@drawable/img_3" />
 
                         <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="143dp"
+                            android:layout_height="54dp"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
                             android:layout_marginStart="22dp"
                             android:layout_marginTop="30dp"
-                            android:layout_marginEnd="48dp"
+                            android:layout_marginEnd="29dp"
+                            android:layout_marginBottom="35dp"
                             android:layout_toEndOf="@+id/imageView3"
                             android:text="Pharmacy"
                             android:textColor="@color/c1"
-                            android:textSize="28dp" />
+                            android:textSize="@dimen/_20ssp" />
 
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -175,7 +178,8 @@
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="32dp"
-                    app:cardCornerRadius="30dp">
+                    app:cardCornerRadius="30dp"
+                    >
 
 
                     <RelativeLayout
@@ -200,15 +204,17 @@
                             app:srcCompat="@drawable/img_6" />
 
                         <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="143dp"
+                            android:layout_height="41dp"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
                             android:layout_marginStart="22dp"
                             android:layout_marginTop="30dp"
-                            android:layout_marginEnd="48dp"
+                            android:layout_marginEnd="27dp"
+                            android:layout_marginBottom="55dp"
                             android:layout_toEndOf="@+id/imageView6"
-                            android:text="Specilist"
+                            android:text="Specialist"
                             android:textColor="@color/c1"
                             android:textSize="28sp" />
 

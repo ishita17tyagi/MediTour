@@ -1,4 +1,6 @@
 # MediTour
+
+for login (username and password is admin)
 --What MediTour App does?
 1.Find nearby pharmacies
 2.Find nearby hospitals

@@ -8,32 +8,35 @@
     tools:context=".Intro1"
 
     >
+
+
     <TextView
+        android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="67dp"
         android:text="Your Gateway to"
-        android:id="@+id/welcome"
-        android:textSize="33sp"
         android:textColor="@color/c1"
-        android:textStyle="bold"
-        android:layout_marginTop="70dp"
-        android:layout_marginStart="30dp"/>
-
+        android:textSize="@dimen/_28ssp"
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="399dp"
-        android:layout_height="105dp"
+        android:layout_width="@dimen/_399sdp"
+        android:layout_height="@dimen/_105sdp"
         android:layout_alignTop="@+id/welcome"
         android:layout_alignBottom="@+id/welcome"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="-243dp"
+        android:layout_marginStart="-268dp"
         android:layout_marginTop="49dp"
-        android:layout_marginEnd="-17dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="-110dp"
         android:layout_toEndOf="@+id/welcome"
         android:text="Advance Medical \nFacilities."
         android:textColor="@color/c1"
-        android:textSize="33sp"
+        android:textSize="@dimen/_27ssp"
         android:textStyle="italic" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -62,14 +65,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="193dp"
-        android:layout_height="299dp"
+        android:layout_width="271dp"
+        android:layout_height="402dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="103dp"
-        android:layout_marginEnd="97dp"
-        android:layout_marginBottom="222dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="171dp"
         app:srcCompat="@drawable/img" />
 
 

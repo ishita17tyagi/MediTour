@@ -70,6 +70,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="28dp"
                         android:id="@+id/room_1"
+                        android:clickable="true"
                         android:backgroundTint="@color/C2"
                         app:cardCornerRadius="20dp">
 
@@ -77,6 +78,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="170dp"
                             android:gravity="center"
+
                             android:orientation="vertical"
                             android:padding="14dp">
 

@@ -21,8 +21,10 @@ public class Hospitals_1 extends AppCompatActivity {
         c1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Hospitals_1.this, AR_Model.class));
+                startActivity(new Intent(Hospitals_1.this,Hospital_name_1.class));
+
             }
+
         });
         m1.setOnClickListener(new View.OnClickListener() {
             @Override

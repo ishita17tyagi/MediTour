@@ -1,14 +1,16 @@
 package com.example.meditour;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.fragment.app.FragmentActivity;
+
+
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+
 import android.widget.ImageButton;
 
-public class RoomTour extends AppCompatActivity {
+public class RoomTour extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,25 +19,17 @@ public class RoomTour extends AppCompatActivity {
         ImageButton m1 = findViewById(R.id.BackToMain);
 
         CardView r1 = findViewById(R.id.room_1);
-        r1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = getPackageManager().getLaunchIntentForPackage("com.fyoutube");
-                if (i != null) {
-                    startActivity(i);
-                } else {
-                    startActivity(new Intent(RoomTour.this, AR_Model.class));
-                }
 
-            }
+
+        r1.setOnClickListener(v -> {
+            Intent i = getPackageManager().getLaunchIntentForPackage("com.whatsapp");
+
+                startActivity(i);
+
+
         });
 
 
-        m1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(RoomTour.this,MainActivity.class));
-            }
-        });
+        m1.setOnClickListener(v -> startActivity(new Intent(RoomTour.this,MainActivity.class)));
     }
 }

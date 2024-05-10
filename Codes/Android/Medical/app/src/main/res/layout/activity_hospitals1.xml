@@ -128,7 +128,7 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/_100sdp"
+                    android:layout_height="@dimen/_90sdp"
                     android:background="#4B4FD3"
 
                     android:padding="1dp">
@@ -144,7 +144,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="30dp"
                         android:gravity="center"
-                        android:text="MedZone Pharmacy"
+                        android:text="MedZone Hospital"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_20sdp" />
 
@@ -170,7 +170,7 @@
                         android:layout_marginEnd="-4dp"
                         android:layout_marginBottom="25dp"
                         android:gravity="center"
-                        android:text="123, Rajaji Nagar,Bnagalore,Karnataka,India"
+                        android:text="23, Raja lajpat rai Nagar,Bnagalore,Karnataka,India"
                         android:textColor="@color/c1"
                         android:textSize="@dimen/_12sdp"/>
 

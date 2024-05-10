@@ -1,4 +1,5 @@
-# MediTour
+# MediTour 
+Refer to this GitHub for AR Model APK: https://github.com/naynisinghal1008/MediTourAr
 # MediTour
 
 ![WhatsApp Image 2024-05-10 at 18 32 52_fdd49cfd](https://github.com/naynisinghal1008/MediTourAr/assets/132836849/59a279a6-a526-44ea-a7e3-ab29c91f5345)
